@@ -1,4 +1,4 @@
-# Commitando-FLS-para-Blender
+# Commitando-LFS-para-Blender
 
 
 Para enviar arquivos do GitDesktop para GitHub via Fls.
@@ -57,7 +57,7 @@ Para enviar arquivos do GitDesktop para GitHub via Fls.
 ### 6 - Salve e volte ao GitDesktop, agora faça o Commit
 
 ---------------------------------------------------------------------------------------------------------------------
-# Commitando-FLS-para-Unity
+# Commitando-LFS-para-Unity
 
 Para enviar arquivos do GitDesktop para GitHub via Fls.
 
