@@ -1,4 +1,4 @@
-# Commitando-LFS-para-Blender
+# Commitando-FLS-para-Blender
 
 
 Para enviar arquivos do GitDesktop para GitHub via Fls.
@@ -6,7 +6,7 @@ Para enviar arquivos do GitDesktop para GitHub via Fls.
 ### 1 - Instale o Gitbash.
 ### 2 - Execute-o dentro da pasta "Git Bash here".
 ### 3 - Digite: "touch .gitattributes".
-###	    obs: isso serve para criar uma pasta onde deve ser colado os arquivos FLS.
+###	    obs: isso serve para criar uma pasta onde deve ser colado os arquivos LFS.
 ### 4 - Cole este código dentro do arquivo ".gitattributes" que foi criado dentro da sua pasta. 
 ### 5 - 
 
@@ -57,14 +57,14 @@ Para enviar arquivos do GitDesktop para GitHub via Fls.
 ### 6 - Salve e volte ao GitDesktop, agora faça o Commit
 
 ---------------------------------------------------------------------------------------------------------------------
-# Commitando-LFS-para-Unity
+# Commitando-FLS-para-Unity
 
 Para enviar arquivos do GitDesktop para GitHub via Fls.
 
 ### 1 - Instale o Gitbash.
 ### 2 - Execute-o dentro da pasta "Git Bash here".
 ### 3 - Digite: "touch .gitattributes".
-###	    obs: isso serve para criar uma pasta onde deve ser colado os arquivos FLS.
+###	    obs: isso serve para criar uma pasta onde deve ser colado os arquivos LFS.
 ### 4 - Cole este código dentro do arquivo ".gitattributes" que foi criado dentro da sua pasta. 
 ### 5 - 
 
