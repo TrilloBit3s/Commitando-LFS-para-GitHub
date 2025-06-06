@@ -3,12 +3,12 @@
 
 Para enviar arquivos do GitDesktop para GitHub via Fls.
 
-###1 - Instale o Gitbash.
-###2 - Execute-o dentro da pasta "Git Bash here".
-###3 - Digite: "touch .gitattributes".
+### 1 - Instale o Gitbash.
+### 2 - Execute-o dentro da pasta "Git Bash here".
+### 3 - Digite: "touch .gitattributes".
 ###	    obs: isso serve para criar uma pasta onde deve ser colado os arquivos FLS.
-###4 - Cole este código dentro do arquivo ".gitattributes" que foi criado dentro da sua pasta. 
-###5 - 
+### 4 - Cole este código dentro do arquivo ".gitattributes" que foi criado dentro da sua pasta. 
+### 5 - 
 
 
 	# Arquivos Blender (armazenados via LFS)
@@ -54,4 +54,4 @@ Para enviar arquivos do GitDesktop para GitHub via Fls.
 	* text=auto
 	
 	
-###6 - Salve e volte ao GitDesktop, agora faça o Commit
+### 6 - Salve e volte ao GitDesktop, agora faça o Commit
