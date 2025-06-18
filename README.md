@@ -123,3 +123,26 @@ Para enviar arquivos do GitDesktop para GitHub via lfs.
 
 	
 6 - Salve e volte ao GitDesktop, agora faça o Commit
+
+OBs:
+
+Explicação por partes:
+GIT_LFS_SKIP_SMUDGE=1
+É uma variável de ambiente usada pelo Git LFS (Large File Storage). Ela impede que os arquivos grandes gerenciados pelo LFS sejam baixados automaticamente durante o clone do repositório.
+
+Ou seja: os arquivos LFS serão clonados como "ponteiros" (pequenos arquivos de texto que referenciam os arquivos reais) — economizando tempo e banda no momento do clone.
+
+git clone https://github.com/seu-usuario/Seu-Projeto.git
+Esse é o comando padrão para clonar um repositório Git do GitHub.
+
+Na prática:
+Você clona o repositório normalmente,
+
+Mas os arquivos LFS (como .png, .psd, .fbx, .blend, etc., se forem controlados pelo Git LFS) não são baixados automaticamente.
+
+
+###este código só deve ser usado se exeder o limite do LFS, neste caso vai cancelar o LFS do git.
+###se do contrario, remova remova estes comentario.
+###remover o got git LFS 
+
+###GIT_LFS_SKIP_SMUDGE=1 git clone https://github.com/seu-usuario/Island_Blender_URP.git
