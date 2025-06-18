@@ -123,7 +123,7 @@ Para enviar arquivos do GitDesktop para GitHub via lfs.
 
 	
 6 - Salve e volte ao GitDesktop, agora faça o Commit
-
+---------------------------------------------------------------------------------------------------------------------
 OBs:
 
 Explicação por partes:
@@ -139,7 +139,7 @@ Na prática:
 Você clona o repositório normalmente,
 
 Mas os arquivos LFS (como .png, .psd, .fbx, .blend, etc., se forem controlados pelo Git LFS) não são baixados automaticamente.
-
+---------------------------------------------------------------------------------------------------------------------
 
 ### Este código só deve ser usado se exeder o limite do LFS, neste caso vai cancelar o LFS do git.
 ### Se do contrario, remova remova estes comentario.
