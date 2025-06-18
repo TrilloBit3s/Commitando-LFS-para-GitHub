@@ -144,5 +144,6 @@ Mas os arquivos LFS (como .png, .psd, .fbx, .blend, etc., se forem controlados p
 ### Este código só deve ser usado se exeder o limite do LFS, neste caso vai cancelar o LFS do git.
 ### Se do contrario, remova remova estes comentario.
 ### Remover o got git LFS 
-
-### GIT_LFS_SKIP_SMUDGE=1 git clone https://github.com/seu-usuario/Island_Blender_URP.git
+---------------------------------------------------------------------------------------------------------------------
+# use a linha por inteiro para cancelar o LFS
+### GIT_LFS_SKIP_SMUDGE=1 git clone https://github.com/seu-usuario/seu-projeto.git
